@@ -3,6 +3,11 @@ define(function() {
   return 'hello world';
 });
 
+define(function(require) {
+  var a = require('rjs-require');
+  return a;
+});
+
 define({
   hello: 'world'
 });
